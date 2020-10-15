@@ -4,7 +4,7 @@ This is the code for our paper *MMESGN: Transformer-based Label Set Generation f
 
 ***********************************************************
 # CODE
-The code will be released later, you can email me if needed
+## The code will be released later, you can email me if needed
 ## Note
 In general, this code is more suitable for the following application scenarios:
 * **1:** 
