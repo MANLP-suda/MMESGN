@@ -1,9 +1,10 @@
 # MMESGN  Transformer-based Label Set Generation for Multi-modal Multi-label Emotion Detection
 Transformer-based Label Set Generation for Multi-modal Multi-label Emotion Detection
-This is the code for our paper *MMESGN: Transformer-based Label Set Generation for Multi-modal Multi-label Emotion Detection* [[pdf]](https://arxiv.org/abs/)
+This is the code for our paper *MMESGN: Transformer-based Label Set Generation for Multi-modal Multi-label Emotion Detection* [[pdf]](https://dl.acm.org/doi/10.1145/3394171.3413577)
 
 ***********************************************************
-
+# CODE
+The code will be released later, you can email me if needed
 ## Note
 In general, this code is more suitable for the following application scenarios:
 * **1:** 
