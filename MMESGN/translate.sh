@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=2 nohup python3 -u translate.py -batch_size 16 -model save_model/model_step_1000.pt -src test.en -output test_data/test.tran  -gpu 0  1>test_data/test.log 2>&1
