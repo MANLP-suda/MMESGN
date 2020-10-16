@@ -14,13 +14,11 @@ In general, this code is more suitable for the following application scenarios:
 
 ***********************************************************
 
-## preprocess data
-Modify the data path in data_loader.py first,then:
+## preprocess data：Modify the data path in data_loader.py first,then:
 bash preprocess.sh
 ## train
 bash train.sh
-## reinforcement
-select one of train checkpoints and copy the path to -train_from in reinforce.sh,then
+## reinforcement ： select one of train checkpoints and copy the path to -train_from in reinforce.sh,then
 bash reforce.sh
 ## translate
 bash translate.sh
@@ -34,7 +32,7 @@ python3 rein_evaluate_all.py
 * [PyTorch](http://pytorch.org/) version >= 1.1.0
 
 ## Dataset
-Our used Mosei dataset can be downloaded from the page [this link](https://github.com/A2Zadeh/CMU-MultimodalSDK). The preprocess of the raw data clearly published in the information page
+Our used Mosei dataset can be downloaded from the page [this link](https://github.com/A2Zadeh/CMU-MultimodalSDK). The preprocess of the raw data clearly published in the information page。
 
 ## Future 
 The code will be published after the ACM MM conference, happy to see you reading my code in the future.
