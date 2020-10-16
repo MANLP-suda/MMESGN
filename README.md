@@ -4,7 +4,7 @@ This is the code for our paper *MMESGN: Transformer-based Label Set Generation f
 
 ***********************************************************
 # CODE
-## The code will be released later, you can email me if needed
+## The code has been released,  you can email me if you have problems
 ## Note
 In general, this code is more suitable for the following application scenarios:
 * **1:** 
@@ -13,6 +13,21 @@ In general, this code is more suitable for the following application scenarios:
 	* 
 
 ***********************************************************
+
+## preprocess data
+Modify the data path in data_loader.py first,then:
+bash preprocess.sh
+## train
+bash train.sh
+## reinforcement
+select one of train checkpoints and copy the path to -train_from in reinforce.sh,then
+bash reforce.sh
+## translate
+bash translate.sh
+## test score
+python3 rein_evaluate_all.py
+
+
 ## Requirements
 * Ubuntu 16.0.4
 * Python version >= 3.6
