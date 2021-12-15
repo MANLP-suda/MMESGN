@@ -5,35 +5,41 @@ This is the code for our paper *MMESGN: Transformer-based Label Set Generation f
 ***********************************************************
 # CODE
 ## The code has been released,  you can email me if you have problems
-## Note
-In general, this code is more suitable for the following application scenarios:
-* **1:** 
-	* 
-* **2:** 
-	* 
-
-***********************************************************
 
 ## preprocess data
-Modify the data path in data_loader.py first,then:
+- Modify the data path in data_loader.py
+```
 bash preprocess.sh
+```
 ## train
+```
 bash train.sh
+```
 ## reinforcement
-select one of train checkpoints and copy the path to -train_from in reinforce.sh,then
+Select one of train checkpoints and copy the path to -train_from in reinforce.sh,then:
+```
 bash reforce.sh
+```
 ## translate
+To get the performance of the project, Just input commands:
+```
 bash translate.sh
-## test score
-python3 rein_evaluate_all.py
+``` 
 
+## test score
+We provide a python file to help evaluate the approach.  
+```
+python3 rein_evaluate_all.py
+```
 
 ## Requirements
+
 * Ubuntu 16.0.4
 * Python version >= 3.6
 * [PyTorch](http://pytorch.org/) version >= 1.1.0
 
 ## Dataset
+
 Our used Mosei dataset can be downloaded from the page [this link](https://github.com/A2Zadeh/CMU-MultimodalSDK). The preprocess of the raw data clearly published in the information page
 
 ## Future 
